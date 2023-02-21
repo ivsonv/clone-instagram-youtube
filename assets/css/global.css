@@ -1,0 +1,32 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.container {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+:root {
+    --color-primary: #242424;
+    --color-secondary: #292929;
+    --color-text-primary: #fff;
+    --color-text-secondary: #545454;
+    --color-instagram: rgb(188, 24, 136)
+}

@@ -1,0 +1,72 @@
+.page-body {
+    background: var(--color-secondary);
+    width: 100vw;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.stories p {
+    color: var(--color-text-primary);
+    font-size: 20px;
+}
+
+.stories .users img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: var(--color-instagram);
+    margin-right: 10px;
+}
+
+.publications {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.title-pubs { 
+    margin-top: 20px;
+    color: var(--color-text-primary);
+    font-size: 20px;
+}
+
+.pub-item {
+    margin-top: 10px;
+    width: 300px;
+}
+
+.pub-item .pub-body img {
+    width: 280px;
+    height: 280px;
+    border-radius: 4px;
+}
+
+.pub-item .pub-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 280px;
+
+}
+
+.pub-item .pub-footer .nick {
+    display: flex;
+    align-items: center;
+}
+
+.pub-item .pub-footer .nick img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--color-instagram);
+    margin-right: 10px;
+}
+
+.pub-item .pub-footer strong {
+    display: flex;
+    align-items: center;
+    color: var(--color-text-primary);
+}
